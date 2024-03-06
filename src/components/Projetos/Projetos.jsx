@@ -43,7 +43,7 @@ const Projetos = () => {
               github para pegar informações da conta do github e procura a conta
               com a barra de pesquisa, ele esta disponivel!
             </p>
-            <a href="https://secret-word-game-flax.vercel.app/" target="blank">
+            <a href="https://find-you-github.vercel.app/" target="blank">
               <button>Acessar</button>
             </a>
           </div>
