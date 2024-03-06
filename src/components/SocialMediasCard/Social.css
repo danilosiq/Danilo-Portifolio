@@ -1,0 +1,29 @@
+.socialCamp ul {
+  display: flex;
+  gap: 20px;
+}
+
+
+.socialCamp li {
+  font-size: 1.5em;
+  transition: 300ms ease;
+}
+
+.socialCamp li:hover {
+  transform: scale(1.3);
+}
+.insta:hover {
+  color: rgb(251, 36, 176);
+}
+
+.git:hover{
+    color: rgb(104, 104, 104);
+}
+
+.whats:hover{
+    color: rgb(0, 222, 0);
+}
+
+.linkedin:hover{
+    color: rgb(32, 136, 255);
+}

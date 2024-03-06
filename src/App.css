@@ -1,0 +1,26 @@
+section {
+  max-width: 90%;
+  margin: auto;
+  min-height: 500px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+ul{
+    list-style: none;
+}
+
+.separate{
+    display: flex;
+}
+
+
+
+
+@media (width <= 600px ){
+  .separate{
+    display: block;
+  }
+
+ 
+}

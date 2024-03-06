@@ -1,0 +1,54 @@
+.danIMG{
+    width:400px ;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.introcamp{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imgCamp{
+    position: relative;
+}
+
+.miniDan{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    left: 0;
+    bottom: 20% ;
+}
+
+.intro{
+    margin-top: 10%;
+    font-size: 1.8em;
+}
+
+.intro ul{
+    padding-bottom: 15px;
+}
+
+@media (max-width: 600px ){
+    .introcamp{
+        flex-direction: column-reverse;
+    }
+
+    .intro h1{
+        text-align: center;
+    }
+    
+    .danIMG{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        object-fit: contain;
+    }
+    .miniDan{
+        bottom: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.Home{
+    padding-top: 40px;
+    width: 86%;
+}
+
+
+
+
+@media (max-width: 600px ){
+    .Home{
+        margin: auto;
+    }
+}
