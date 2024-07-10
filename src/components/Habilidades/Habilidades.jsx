@@ -4,9 +4,11 @@ import { SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaReact, FaNodeJs,FaPython } from "react-icons/fa";
 import "./Hab.css";
+import { FaFigma } from "react-icons/fa";
 import habIMG from "./habIMG.png";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
+import { SiVite } from "react-icons/si";
 
 import { BsPencilFill } from "react-icons/bs";
 
@@ -72,6 +74,7 @@ export const listHab = [
         icon: <FaReact />,
         label: 'React'
       },
+      
       {
         icon:  <SiTypescript />,
         label: 'Typescript'
@@ -79,6 +82,10 @@ export const listHab = [
       {
         icon:  <SiTailwindcss />,
         label: 'TailWind'
+      },
+      {
+        icon: <FaFigma />,
+        label: 'Figma'
       },
     ]
   },
@@ -94,12 +101,12 @@ export const listHab = [
         label: 'NodeJs'
       },
       {
-        icon:  <FaPython />,
-        label: 'Python'
+        icon:  <TbBrandNextjs />,
+        label: 'NextJs'
       },
       {
-        icon:  <TbBrandNextjs />,
-        label: 'NextKs'
+        icon:  <SiVite />,
+        label: 'Vite'
       },
       {
         icon: <SiExpo />,

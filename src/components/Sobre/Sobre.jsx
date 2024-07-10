@@ -27,7 +27,7 @@ const Sobre = () => {
           um profissional talentoso e inspirador, capaz de agregar valor em
           qualquer equipe de trabalho.
           <br /><br />
-          Hoje em dia eu Estudo Engenharia de Software na Uniopet, asim de ser um profissional mais completo!
+          Hoje em dia eu Estudo Engenharia de Software na Uniopet, assim de ser um profissional mais completo!
         </p>
       </div>
 
