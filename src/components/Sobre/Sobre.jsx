@@ -16,10 +16,6 @@ const Sobre = () => {
       <div className="card">
         <h3>"Quem é Danilo?"</h3>
         <p>
-          Refletir sobre nossa própria identidade e autoconhecimento pode ser um
-          desafio e tanto, afinal, são tantas as experiências e episódios
-          vividos ao longo da vida que definir a si mesmo pode parecer uma
-          tarefa árdua.
           <br />
           Sou Danilo Dante Siqueira, um indivíduo criativo e apaixonado por
           desenhos, arte e games. Valorizo muito minhas amizades e sou conhecido
@@ -30,6 +26,8 @@ const Sobre = () => {
           colaborar em projetos e ser um exemplo para os outros. Em resumo, sou
           um profissional talentoso e inspirador, capaz de agregar valor em
           qualquer equipe de trabalho.
+          <br /><br />
+          Hoje em dia eu Estudo Engenharia de Software na Uniopet, asim de ser um profissional mais completo!
         </p>
       </div>
 

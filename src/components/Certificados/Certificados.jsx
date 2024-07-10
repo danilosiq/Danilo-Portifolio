@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import tec from "./tecpuc.jpeg";
 import oct from "./octopus.jpeg";
 import "./Certificados.css";
+import udemy from "./udemy.jpeg";
+
 
 import { BsAwardFill } from "react-icons/bs";
 import ZoomTEC from "./ZoomTEC";
@@ -40,6 +42,13 @@ const Certificados = () => {
                   Curso de Arte <br /> Octopus
                 </p>
               </li>
+              <li onClick={() => setTec(true)}>
+                <img src={udemy} alt="" />
+                <p>
+                  Curso React - Zero a maestria <br /> Udemy
+                </p>
+              </li>
+              
             </>
           )}
         </ul>
